@@ -1,1 +1,1 @@
-https://KatyaMikanov.github.io/rsschool-cv/cvgit
+https://KatyaMikanov.github.io/rsschool-cv/cv
