@@ -40,4 +40,3 @@ window.alert (name+adviceForYou)
 2. Russian (C1)
 3. English (B1)
 4. Polish (A2)
-**************************
