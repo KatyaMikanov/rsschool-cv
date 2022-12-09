@@ -1,5 +1,4 @@
 # Katsiaryna Mikanovich
-! [foto](E:\IT free\RS school\foto.jpg)
 
 ## Contacts
 * Adress: Ozheshko st, 29-26, Grodno, Belarus
