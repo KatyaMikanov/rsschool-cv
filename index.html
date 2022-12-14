@@ -8,14 +8,111 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.ico">
 </head>
+
+
 <body>
-<img src="assets/image.jpg" alt="my photo">
+
+
+<header class="header">
+<div class="container"> 
+    <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#codeexample" class="nav-link">Code example</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+</div>
+</header>
+
+
+<main class="main">
+
+<div class="container main-container"> 
+
+<section class="section" id="myfoto">
+<img class="foto" src="assets/image.jpg" alt="my photo">
+</section>
+<section class="section" id="title"> 
+<h1 class="title-profile">Mikanovich Katsyaryna</h1>
+</section>
+<section class="section" id="contacts"> 
+ <h2 class="section-title">Contacts</h2> 
+ <ul>
+    <li>Adress: Ozheshko st, 29-26, Grodno, Belarus</li>
+    <li>Phone number: 375(29)1112129</li>
+    <li>E-mail: kategubko@gmail.com</li>
+    <li>Linkedln: Katsiryna Mikanovich</li>
+    <li>Telegram: @MikanovKatya</li>
+    <li>GitHub: KatyaMikanov</li>
+ </ul>
+</section>
+<section class="section" id="aboutme">
+<h2 class="section-title">About me</h2>
+<p>I have strong technical skills and excellent interpersonal skills. I am hardworking and ambitious individual. I am currently looking for an opportunity to utilise my technical skills in a challenging working environment and become a valuable asset to an organisation.</p>
+</section>
+<section class="section" id="skills"> 
+<h2 class="section-title">Skills</h2>
+<ol>
+    <li><i>HTML</i></li>
+    <li><i>CSS</i></li>
+    <li><i>JavaScript</i></li>
+    <li><i>VSCode</i></li>
+    <li><i>Version control: Git, GitHub</i></li>
+</ol>
+</section>
+<section class="section" id="codeexample"> 
+    <h2 class="section-title">Code example</h2>
+    <p><i><b> This is funny lottery with short advices. Let's check what will be good for you!</b></i></p>
+    <span>
+<p>var goodAdvices = [', don't forget the umbrella', ', buy Tesla shares', ', turn off the iron', ', follow your dream'];</p>
+<p>var name = prompt ('What is your name?');</p>
+<p>var adviceForYou = goodAdvices [Math.floor (Math.random (goodAdvices)*4)];</p>
+<p>(name+adviceForYou)</p>
+    </span>
+</section>
+<section class="section" id="education">
+<h2 class="section-title">Education</h2>
+<p><b>Brest State Technical University (2007-2012)</b></p>
+<p>Faculty of Civil Engineering</p>
+</section>
+<section class="section" id="experience"> 
+    <h2 class="section-title">Experience</h2>
+    <ul>
+        <li>Concept engineer (2012-2017)</li>
+        <li>Valuer (since 2017)</li>
+    </ul>
+</section>
+<section class="section" id="languages"> 
+    <h2 class="section-title">Languages</h2>
+    <ol>
+        <li>Belarussian (C1, native language)</li>
+        <li>Russian (C1)</li>
+        <li>English (B1)</li>
+        <li>Polish (A2)</li>
+    </ol>
+</section>
+</div>
+</main>
+
+
+<footer class="footer">
+<div class="container"> 
+    <p> 2022 KatyaMikanov </p>
+</div>
+
+</footer>
 
 
 
 
 
 
-<script src="style.css"></script>    
+
+  
 </body>
 </html>
