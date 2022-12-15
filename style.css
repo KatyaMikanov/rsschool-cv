@@ -112,5 +112,9 @@ body {
     height: 220px;
 }
 
+.footer_git {
+    text-decoration: none;
+    font-family: "Open Sans";
+}
 
 
